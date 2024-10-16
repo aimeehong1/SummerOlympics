@@ -48,16 +48,6 @@
 			path = SummerOlympics;
 			sourceTree = "<group>";
 		};
-		902A4BCE2CB4856D0058F288 /* SummerOlympicsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SummerOlympicsTests;
-			sourceTree = "<group>";
-		};
-		902A4BD82CB4856D0058F288 /* SummerOlympicsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SummerOlympicsUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				902A4BBD2CB485690058F288 /* SummerOlympics */,
-				902A4BCE2CB4856D0058F288 /* SummerOlympicsTests */,
-				902A4BD82CB4856D0058F288 /* SummerOlympicsUITests */,
 				902A4BBC2CB485690058F288 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				902A4BCD2CB4856D0058F288 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				902A4BCE2CB4856D0058F288 /* SummerOlympicsTests */,
-			);
 			name = SummerOlympicsTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				902A4BD72CB4856D0058F288 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				902A4BD82CB4856D0058F288 /* SummerOlympicsUITests */,
 			);
 			name = SummerOlympicsUITests;
 			packageProductDependencies = (
